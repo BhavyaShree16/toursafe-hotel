@@ -61,7 +61,7 @@ export default function Login() {
               value={form.password} onChange={handleChange} />
           </div>
           <button className="login-btn" type="submit" disabled={loading}>
-            {loading ? 'Signing in...' : 'Sign in'}
+          {loading ? 'Logging in...' : 'Login'}
           </button>
         </form>
 
